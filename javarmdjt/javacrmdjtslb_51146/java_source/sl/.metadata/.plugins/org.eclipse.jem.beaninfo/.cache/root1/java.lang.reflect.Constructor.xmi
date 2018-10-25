@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi">
+  <objectChanges xsi:type="change:EObjectToChangesMapEntry" key="org.eclipse.jem.java:JavaClass java:/java.lang.reflect#Constructor">
+    <value xsi:type="change:FeatureChange" featureName="eAnnotations">
+      <listChanges xsi:type="change:ListChange" referenceValues="#//@objectsToAttach.0"/>
+    </value>
+    <value xsi:type="change:FeatureChange" featureName="eStructuralFeatures">
+      <listChanges xsi:type="change:ListChange" referenceValues="#//@objectsToAttach.1 #//@objectsToAttach.2 #//@objectsToAttach.3 #//@objectsToAttach.4 #//@objectsToAttach.5 #//@objectsToAttach.6 #//@objectsToAttach.7 #//@objectsToAttach.8 #//@objectsToAttach.9 #//@objectsToAttach.10 #//@objectsToAttach.11"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xsi:type="ecore:EReference" name="parameterAnnotations" eType="org.eclipse.jem.java:ArrayType java:/java.lang.annotation#Annotation[][]" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.getParameterAnnotations("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="genericExceptionTypes" eType="org.eclipse.jem.java:ArrayType java:/java.lang.reflect#Type[]" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.getGenericExceptionTypes("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="declaringClass" eType="org.eclipse.jem.java:JavaClass java:/java.lang#Class" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.getDeclaringClass("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="typeParameters" eType="org.eclipse.jem.java:ArrayType java:/java.lang.reflect#TypeVariable[]" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.getTypeParameters("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="name" eType="org.eclipse.jem.java:JavaClass java:/java.lang#String" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.getName("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="varArgs" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.isVarArgs("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="synthetic" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.isSynthetic("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="genericParameterTypes" eType="org.eclipse.jem.java:ArrayType java:/java.lang.reflect#Type[]" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.getGenericParameterTypes("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="modifiers" eType="org.eclipse.jem.java:JavaDataType java:/#int" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.getModifiers("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="exceptionTypes" eType="org.eclipse.jem.java:ArrayType java:/java.lang#Class[]" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.getExceptionTypes("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="parameterTypes" eType="org.eclipse.jem.java:ArrayType java:/java.lang#Class[]" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang.reflect#Constructor.getParameterTypes("/>
+  </objectsToAttach>
+</change:ChangeDescription>

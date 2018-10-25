@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.200.v200905120445,"org.eclipse.wst.jsdt.web.core",1257995492721
+started,bundle,org.eclipse.pde.core,3.5.0.v20090602,"org.eclipse.pde.core",1257995493596
+started,bundle,org.eclipse.wst.wsi.ui,1.0.500.v200901141851,"org.eclipse.wst.wsi.ui",1257995494065
+started,bundle,org.eclipse.wst.dtd.core,1.1.300.v200904181727,"org.eclipse.wst.dtd.core",1257995494159
+started,bundle,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui",1257995494315
+started,bundle,org.eclipse.wst.html.ui,1.0.400.v200904292008,"org.eclipse.wst.html.ui",1257995494362
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.401.v200902271605,"org.eclipse.wst.wsdl.validation",1257995494549
+started,bundle,org.eclipse.wst.xsd.core,1.1.401.v200903020335,"org.eclipse.wst.xsd.core",1257995494581
+started,bundle,org.eclipse.wst.xsl.core,1.0.0.v200905071815,"org.eclipse.wst.xsl.core",1257995494627
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.301.v200805140415,"org.eclipse.wst.common.uriresolver",1257995494659
+started,bundle,org.eclipse.wst.internet.cache,1.0.301.v200805140020,"org.eclipse.wst.internet.cache",1257995495737
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257995495987
+activated,perspective,org.eclipse.jst.j2ee.ui,1.1.300.v200905132034,"org.eclipse.jst.j2ee.J2EEPerspective",1257995496143
+activated,view,org.eclipse.ui.views,3.4.0.I20090525-2000,"org.eclipse.ui.views.ContentOutline",1257995496315
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257995499096
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257995504049
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257995512424
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257995513206
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257995514581
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257995514924
+started,bundle,org.eclipse.wst.html.core,1.1.300.v200903120608,"org.eclipse.wst.html.core",1257995515799
+started,bundle,org.eclipse.wst.css.core,1.1.300.v200904131653,"org.eclipse.wst.css.core",1257995516737
+error,log,,,"未能获取扩展 org.eclipse.jst.jee.ui.web 的子代",1257995517690
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1257995518174
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257995521706

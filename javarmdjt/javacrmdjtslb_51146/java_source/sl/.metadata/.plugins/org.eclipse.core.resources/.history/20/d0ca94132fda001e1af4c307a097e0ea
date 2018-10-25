@@ -1,0 +1,75 @@
+package com.lzw;
+
+import java.awt.*;
+import java.awt.BorderLayout;
+
+import javax.swing.*;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+public class TestClient extends JFrame {
+	
+	private JTextArea textArea;
+	private JTextField textField_1;
+	private JTextField textField;
+	/**
+	 * Launch the application
+	 * @param args
+	 */
+	public static void main(String args[]) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					TestClient frame = new TestClient();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+	
+	/**
+	 * Create the frame
+	 */
+	public TestClient() {
+		super();
+		setBounds(100, 100, 500, 212);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		final JPanel panel = new JPanel();
+		panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
+		getContentPane().add(panel, BorderLayout.NORTH);
+
+		final JLabel label = new JLabel();
+		label.setText("连接主机：");
+		panel.add(label);
+
+		textField = new JTextField();
+		panel.add(textField);
+
+		final JLabel label_1 = new JLabel();
+		label_1.setText("端口：");
+		panel.add(label_1);
+
+		textField_1 = new JTextField();
+		panel.add(textField_1);
+
+		final JButton button = new JButton();
+		button.setText("连接");
+		panel.add(button);
+
+		final JScrollPane scrollPane = new JScrollPane();
+		getContentPane().add(scrollPane, BorderLayout.CENTER);
+
+		textArea = new JTextArea();
+		scrollPane.setViewportView(textArea);
+		//
+	}
+	
+}

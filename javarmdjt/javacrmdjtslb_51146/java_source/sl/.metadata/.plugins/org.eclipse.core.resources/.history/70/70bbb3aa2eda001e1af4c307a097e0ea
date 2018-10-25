@@ -1,0 +1,36 @@
+package com.lzw;
+
+import java.awt.*;
+
+import javax.swing.*;
+
+public class TestClient extends JFrame {
+	
+	/**
+	 * Launch the application
+	 * @param args
+	 */
+	public static void main(String args[]) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					TestClient frame = new TestClient();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+	
+	/**
+	 * Create the frame
+	 */
+	public TestClient() {
+		super();
+		setBounds(100, 100, 500, 375);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//
+	}
+	
+}

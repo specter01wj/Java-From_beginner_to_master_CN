@@ -1,0 +1,12 @@
+import javax.swing.*;
+
+public class fdsaff extends JMenuBar {
+	
+	/**
+	 * Create the panel
+	 */
+	public fdsaff() {
+		//
+	}
+	
+}

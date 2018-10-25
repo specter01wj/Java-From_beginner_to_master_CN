@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="删除资源“fdsa”" deleteContents="true" description="删除资源“fdsa”" element1="/fdsa" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1257997292521"/>&#x0A;<refactoring comment="删除资源“服务器”" deleteContents="true" description="删除资源“服务器”" element1="/服务器" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1257997562068"/>
+</session>

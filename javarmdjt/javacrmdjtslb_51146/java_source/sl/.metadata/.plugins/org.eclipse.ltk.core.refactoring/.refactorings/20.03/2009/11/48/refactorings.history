@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将 1 个元素复制到 “20.04”&#x0D;&#x0A;－ 原始项目：“20.03”&#x0D;&#x0A;－ 目标元素：“20.04”&#x0D;&#x0A;－ 原始元素：“lib”" description="复制文件夹" destination="=20.04" element1="lib" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1259215606164" units="0" version="1.0"/>
+</session>

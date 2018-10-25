@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1257989906823
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1257989906823
+started,bundle,org.eclipse.wst.xml.core,1.1.400.v200904300540,"org.eclipse.wst.xml.core",1257989906823
+started,bundle,org.eclipse.emf.common,2.5.0.v200906151043,"org.eclipse.emf.common",1257989906823
+started,bundle,org.eclipse.emf.common.ui,2.5.0.v200906151043,"org.eclipse.emf.common.ui",1257989906823
+started,bundle,org.eclipse.emf.ecore,2.5.0.v200906151043,"org.eclipse.emf.ecore",1257989906823
+started,bundle,org.eclipse.emf.ecore.xmi,2.5.0.v200906151043,"org.eclipse.emf.ecore.xmi",1257989906823
+started,bundle,org.eclipse.emf.edit,2.5.0.v200906151043,"org.eclipse.emf.edit",1257989906823
+started,bundle,org.eclipse.emf.edit.ui,2.5.0.v200906151043,"org.eclipse.emf.edit.ui",1257989906823
+started,bundle,com.instantiations.common.ui,5.5.0.200910081108,"com.instantiations.common.ui",1257989906823
+started,bundle,com.instantiations.eclipse.debug,5.5.0.200910081108,"com.instantiations.eclipse.debug",1257989906823
+started,bundle,com.instantiations.eclipse.startup,5.5.0.200910081108,"com.instantiations.eclipse.startup",1257989906823
+started,bundle,com.instantiations.eclipse.ui,7.2.0.200910081112,"com.instantiations.eclipse.ui",1257989906823
+started,bundle,com.instantiations.eclipse.usageprofiler,5.5.0.200910081108,"com.instantiations.eclipse.usageprofiler",1257989906823
+started,bundle,com.instantiations.eclipse.usageprofiler.ui,5.5.0.200910081108,"com.instantiations.eclipse.usageprofiler.ui",1257989906823
+started,bundle,com.instantiations.eclipse.util,5.5.0.200910081108,"com.instantiations.eclipse.util",1257989906823
+started,bundle,com.instantiations.j2ee,7.2.0.200910081128,"com.instantiations.j2ee",1257989906823
+started,bundle,com.swtdesigner,6.9.3.200910081122,"com.swtdesigner",1257989906823
+started,bundle,com.swtdesigner.gwt,6.9.3.200910081147,"com.swtdesigner.gwt",1257989906823
+os,sysinfo,,,"win32",1257989906823
+arch,sysinfo,,,"x86",1257989906823
+ws,sysinfo,,,"win32",1257989906823
+locale,sysinfo,,,"zh_CN",1257989906823
+processors,sysinfo,,,"2",1257989906823
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1257989906823

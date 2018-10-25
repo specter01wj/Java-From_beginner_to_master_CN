@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1257996357181
+activated,editor,org.eclipse.jst.jsp.ui,1.1.400.v200904292008,"org.eclipse.jst.jsp.core.jspsource.source",1257996364235
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1257996364235
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257996365454
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996366672
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996368141
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996368454
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996368594
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996370907
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996373891
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.RunLast",1257996373922
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1257996374313
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1257996374375
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1257996383517
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1257996384845
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996413689
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996419534
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996420471
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1257996431299
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257996432471
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1257996434081
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1257996435502
+no handler,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.refresh",1257996435909
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257996450849
+opened,editor,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1257996451365

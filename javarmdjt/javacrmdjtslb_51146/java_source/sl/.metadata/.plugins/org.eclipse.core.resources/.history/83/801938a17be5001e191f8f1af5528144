@@ -1,0 +1,35 @@
+import java.awt.*;
+
+import javax.swing.*;
+
+
+public class fffffffffff extends JMenuBar {
+	
+	/**
+	 * Launch the application
+	 * @param args
+	 */
+	public static void main(String args[]) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					fffffffffff frame = new fffffffffff();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+	
+	/**
+	 * Create the frame
+	 */
+	public fffffffffff() {
+		super();
+		setBounds(100, 100, 500, 375);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//
+	}
+	
+}

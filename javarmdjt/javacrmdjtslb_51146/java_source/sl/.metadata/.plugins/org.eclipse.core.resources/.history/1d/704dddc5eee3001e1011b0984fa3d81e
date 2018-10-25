@@ -1,0 +1,62 @@
+//单击“销售”按钮保存进货信息
+JButton sellButton = new JButton("销售");
+sellButton.addActionListener(new ActionListener() {
+	public void actionPerformed(ActionEvent e) {
+		stopTableCellEditing(); 							//结束表格中正在编辑的单元
+		clearEmptyRow(); 								//清除空行
+		String hpzsStr = hpzs.getText(); 					//货品总数
+		String pzsStr = pzs.getText(); 						//品种数量
+		String jeStr = hjje.getText(); 						//合计金额
+		String jsfsStr = jsfs.getSelectedItem().toString(); 		//结算方式
+		String jsrStr = jsr.getSelectedItem() + "";				//经手人
+		String czyStr = czy.getText(); 						//操作员
+		String rkDate = jhsjDate.toLocaleString(); 			//销售时间
+		String ysjlStr = ysjl.getText().trim(); 					//验收结论
+		String id = piaoHao.getText(); 						//票号
+		String kehuName = kehu.getSelectedItem().toString();	//供应商名称
+		if (jsrStr == null || jsrStr.isEmpty()) {
+			JOptionPane.showMessageDialog(XiaoShouDan.this, "请填写经手人");
+			return;
+		}
+		if (ysjlStr == null || ysjlStr.isEmpty()) {
+			JOptionPane.showMessageDialog(XiaoShouDan.this, "填写验收结论");
+			return;
+		}
+		if (table.getRowCount() <= 0) {
+			JOptionPane.showMessageDialog(XiaoShouDan.this, "添加销售商品");
+			return;
+		}
+		//创建销售主表的模型对象
+		TbSellMain sellMain = new TbSellMain(id, pzsStr, jeStr,	
+				ysjlStr, kehuName, rkDate, czyStr, jsrStr, jsfsStr);
+		//获取销售明细表的集合
+		Set<TbSellDetail> set = sellMain.getTbSellDetails();
+		int rows = table.getRowCount();
+		for (int i = 0; i < rows; i++) {//初始化销售明细表集合
+			//创建销售明细表模型对象
+			TbSpinfo spinfo = (TbSpinfo) table.getValueAt(i, 0);
+			//初始化销售明细表模型
+			String djStr = (String) table.getValueAt(i, 6);		
+			String slStr = (String) table.getValueAt(i, 7);
+			Double dj = Double.valueOf(djStr);
+			Integer sl = Integer.valueOf(slStr);
+			TbSellDetail detail = new TbSellDetail();
+			detail.setSpid(spinfo.getId());
+			detail.setTbSellMain(sellMain.getSellId());
+			detail.setDj(dj);
+			detail.setSl(sl);
+			set.add(detail);
+		}
+		//调用Dao类的insertSellInfo()方法
+		boolean rs = Dao.insertSellInfo(sellMain);
+		if (rs) {
+			JOptionPane.showMessageDialog(XiaoShouDan.this, "销售完成");
+			DefaultTableModel dftm = new DefaultTableModel();
+			table.setModel(dftm);
+			initTable();
+			pzs.setText("0");
+			hpzs.setText("0");
+			hjje.setText("0");
+		}
+	}
+});

@@ -1,0 +1,93 @@
+package com.lzw;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.*;
+import java.net.*;
+
+import javax.swing.*;
+
+public class TestClient extends JFrame {
+	
+	private JTextArea textArea;
+	private JTextField portField;
+	private JTextField hostField;
+	/**
+	 * Launch the application
+	 * @param args
+	 */
+	public static void main(String args[]) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					TestClient frame = new TestClient();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+	
+	/**
+	 * Create the frame
+	 */
+	public TestClient() {
+		super();
+		setBounds(100, 100, 500, 212);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		final JPanel panel = new JPanel();
+		panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
+		getContentPane().add(panel, BorderLayout.NORTH);
+
+		final JLabel label = new JLabel();
+		label.setText("连接主机：");
+		panel.add(label);
+
+		hostField = new JTextField();
+		panel.add(hostField);
+
+		final JLabel label_1 = new JLabel();
+		label_1.setText("端口：");
+		panel.add(label_1);
+
+		portField = new JTextField();
+		panel.add(portField);
+
+		final JButton button = new JButton();
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(final ActionEvent e) {
+				String hostName = hostField.getText();
+				String portNum = portField.getText();
+				int port=Integer.parseInt(portNum);
+				InetAddress host;
+				try {
+					host = InetAddress.getByName(hostName);
+					Socket socket=new Socket(host, port);
+					InputStream is = socket.getInputStream();
+					byte[] data=new byte[2];
+					while(is.read(data)!=-1){
+						System.out.print((char)data);
+					}
+				} catch (UnknownHostException e1) {
+					e1.printStackTrace();
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+				
+			}
+		});
+		button.setText("连接");
+		panel.add(button);
+
+		final JScrollPane scrollPane = new JScrollPane();
+		getContentPane().add(scrollPane, BorderLayout.CENTER);
+
+		textArea = new JTextArea();
+		scrollPane.setViewportView(textArea);
+		//
+	}
+	
+}

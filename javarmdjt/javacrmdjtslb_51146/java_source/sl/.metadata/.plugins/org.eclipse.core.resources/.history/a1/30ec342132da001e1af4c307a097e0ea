@@ -1,0 +1,24 @@
+package com.lzw;
+import java.io.*;
+import java.net.*;
+
+public class ComputerServer {
+	public static void main(String[] args) {
+		try {
+			ServerSocket ss = new ServerSocket(8001);
+			Socket s = ss.accept();
+			InputStream ips = s.getInputStream();
+			OutputStream ops = s.getOutputStream();
+			ops.write("»¶Ó­½øÈë³ÌÐò".getBytes());
+			byte[] buf = new byte[1024];
+			int len = ips.read(buf);
+			System.out.println(new String(buf, 0, len));
+			ips.close();
+			ops.close();
+			s.close();
+			ss.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

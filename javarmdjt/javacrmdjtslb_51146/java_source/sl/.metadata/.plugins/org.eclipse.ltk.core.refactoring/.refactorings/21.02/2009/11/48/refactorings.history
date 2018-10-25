@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="从 项目“21.02” 中删除 1 个元素&#x0D;&#x0A;－ 原始项目：“21.02”&#x0D;&#x0A;－ 原始元素：“21.02/src/片段”" description="删除元素" element1="/src&lt;片段" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1259236981097" subPackages="false" version="1.0"/>
+</session>

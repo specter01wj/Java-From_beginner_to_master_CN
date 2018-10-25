@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+ws,sysinfo,,,"win32",1258073293373
+locale,sysinfo,,,"zh_CN",1258073293373
+processors,sysinfo,,,"2",1258073293373
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1258073293373
+java.runtime.version,sysinfo,,,"1.6.0_17-b04",1258073293373
+java.specification.name,sysinfo,,,"Java Platform API Specification",1258073293373
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1258073293373
+java.specification.version,sysinfo,,,"1.6",1258073293373
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1258073293373
+java.version,sysinfo,,,"1.6.0_17",1258073293373
+java.vm.info,sysinfo,,,"mixed mode",1258073293373
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1258073293373
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1258073293373
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1258073293373
+java.vm.specification.version,sysinfo,,,"1.0",1258073293373
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1258073293373
+java.vm.version,sysinfo,,,"14.3-b01",1258073293373
+started,bundle,com.instantiations.eclipse.usageprofiler.ui,5.5.0.200910081108,"com.instantiations.eclipse.usageprofiler.ui",1258073293388
+started,bundle,com.instantiations.j2ee,7.2.0.200910081128,"com.instantiations.j2ee",1258073293388
+started,bundle,com.instantiations.common.core,5.5.0.200910081108,"com.instantiations.common.core",1258073311310
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1258073331498
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1258073346904
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1258073346919
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1258073347810
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1258073347841

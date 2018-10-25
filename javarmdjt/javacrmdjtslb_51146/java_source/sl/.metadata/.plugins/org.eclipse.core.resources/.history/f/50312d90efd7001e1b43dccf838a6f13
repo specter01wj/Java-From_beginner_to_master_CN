@@ -1,0 +1,19 @@
+package com.wsy;
+import java.awt.*;
+import javax.swing.*;
+public class GridLayoutPosition extends JFrame{
+	public GridLayoutPosition(){
+		Container c=getContentPane();
+		setLayout(new GridLayout(7,3,5,5)); 		//设置容器使用网格布局管理器，设置7行3列的网格
+		for(int i=0;i<20;i++){
+			c.add(new JButton("button"+i)); 		//循环添加按钮
+		}
+		setSize(300, 300);
+		setTitle("这是一个使用网格布局管理器的窗体");
+		setVisible(true);
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+	}
+	public static void main(String[] args) {
+		new GridLayoutPosition();
+	}
+}

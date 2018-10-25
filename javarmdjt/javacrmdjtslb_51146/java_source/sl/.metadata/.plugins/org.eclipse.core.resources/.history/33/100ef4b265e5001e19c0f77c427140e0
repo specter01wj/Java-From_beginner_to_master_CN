@@ -1,0 +1,3 @@
+desktopPanel.add(imgLabel);
+desktopPanel.setLayer(imgLabel, Integer.MAX_VALUE);
+

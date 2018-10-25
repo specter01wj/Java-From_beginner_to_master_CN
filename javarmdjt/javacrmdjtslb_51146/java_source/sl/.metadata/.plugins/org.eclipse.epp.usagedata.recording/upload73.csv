@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1258181772826
+started,bundle,org.eclipse.wst.common.frameworks,1.1.300.v200904160730,"org.eclipse.wst.common.frameworks",1258181772841
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.0.v200906080535,"org.eclipse.wst.common.project.facet.core",1258181773013
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1258181773076
+started,bundle,org.eclipse.emf.common,2.5.0.v200906151043,"org.eclipse.emf.common",1258181773138
+started,bundle,com.instantiations.common.ui,5.5.0.200910081108,"com.instantiations.common.ui",1258181773138
+started,bundle,com.instantiations.eclipse.ui,7.2.0.200910081112,"com.instantiations.eclipse.ui",1258181773169
+started,bundle,com.swtdesigner,6.9.3.200910081122,"com.swtdesigner",1258181773279
+started,bundle,com.swtdesigner.gwt,6.9.3.200910081147,"com.swtdesigner.gwt",1258181773341
+os,sysinfo,,,"win32",1258181773341
+arch,sysinfo,,,"x86",1258181773341
+ws,sysinfo,,,"win32",1258181773341
+locale,sysinfo,,,"zh_CN",1258181773341
+processors,sysinfo,,,"2",1258181773341
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1258181773341
+java.runtime.version,sysinfo,,,"1.6.0_17-b04",1258181773341
+java.specification.name,sysinfo,,,"Java Platform API Specification",1258181773341
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1258181773341
+java.specification.version,sysinfo,,,"1.6",1258181773341
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1258181773341
+java.version,sysinfo,,,"1.6.0_17",1258181773341
+java.vm.info,sysinfo,,,"mixed mode",1258181773341
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1258181773341
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1258181773341
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1258181773341

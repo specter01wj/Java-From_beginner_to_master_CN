@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将 4 个元素移至 “16.05/src”&#x0D;&#x0A;－ 原始项目：“16.05”&#x0D;&#x0A;－ 目标元素：“16.05/src”&#x0D;&#x0A;－ 原始元素：&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本Field_Method_Parameter_Annotation.java&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本Record.java&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本Constructor_Annotation.java&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本Main_05.java&#x0D;&#x0A;－ 更新对已重构元素的引用" description="移动文件" destination="/src" element1="Field_Method_Parameter_Annotation.java" element2="Record.java" element3="Constructor_Annotation.java" element4="Main_05.java" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1259046930271" units="0" version="1.0"/>
+</session>

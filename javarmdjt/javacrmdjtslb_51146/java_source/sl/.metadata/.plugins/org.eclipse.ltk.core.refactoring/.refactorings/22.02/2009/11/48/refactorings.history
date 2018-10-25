@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="从表达式“node.getUserObject() + (j == (path.length - 1)?&quot;&quot;:&quot;--&gt;&quot;)”中抽取局部变量“s”&#x0D;&#x0A;－ 原始项目：“22.02”&#x0D;&#x0A;－ 变量名称：“s”&#x0D;&#x0A;－ 目标方法：“ExampleFrame_02.ExampleFrame_02().新建 TreeSelectionListener() {...}.valueChanged()”&#x0D;&#x0A;－ 变量表达式：“node.getUserObject() + (j == (path.length - 1)?&quot;&quot;:&quot;--&gt;&quot;)”" description="抽取局部变量“s”" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;{ExampleFrame_02.java" name="s" replace="false" selection="2174 86" stamp="1259301632827" version="1.0"/>
+</session>

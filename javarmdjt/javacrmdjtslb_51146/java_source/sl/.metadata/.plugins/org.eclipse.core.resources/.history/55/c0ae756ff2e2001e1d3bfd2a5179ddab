@@ -1,0 +1,56 @@
+package com.lzw;
+import java.applet.*;
+import java.net.*;
+import javax.swing.*;
+public class MusicPlay extends JFrame {
+	// 省略部分代码
+	// 关于“选择文件”按钮的方法
+	private JButton getOpenFile() {
+		if (openFile == null) {
+			openFile = new JButton();//创建“选择文件”按钮
+			openFile.setText("选择文件");
+			//添加按钮事件监听器
+			openFile.addActionListener(new ActionListener() {
+				public void actionPerformed(java.awt.event.ActionEvent e) {
+					//创建文件选择器对象
+					JFileChooser fileChooser = new JFileChooser();
+					//设置文件过滤
+					fileChooser.setFileFilter(new FileNameExtensionFilter(	
+					"支持的音频文件（*.mid、*.wav、*.au", "wav", "au", "mid"));
+					//显示文件选择对话框
+					fileChooser.showOpenDialog(MusicPlay.this);
+					//获取选择的文件对象
+					selectedFile = fileChooser.getSelectedFile();
+					//在文本框显示文件信息
+					filePath.setText(selectedFile.getAbsolutePath());
+				}
+			});
+		}
+		return openFile;
+	}
+	// 关于“播放”按钮的方法
+	private JButton getPlayButton() {
+		if (playButton == null) {
+			playButton = new JButton(); // 创建“播放”按钮
+			playButton.setText("播放");
+			// 添加按钮事件监听器
+			playButton.addActionListener(new ActionListener() {
+				public void actionPerformed(java.awt.event.ActionEvent e) {
+					if (selectedFile != null) {
+						try {
+							if (audioClip != null)
+								audioClip.stop();
+							// 获取音频剪辑对象
+							audioClip = Applet.newAudioClip(selectedFile
+									.toURI().toURL());
+							audioClip.play(); // 播放音频
+						} catch (MalformedURLException e1) {
+							e1.printStackTrace();
+						}
+					}
+				}
+			});
+		}
+		return playButton;
+	}
+}

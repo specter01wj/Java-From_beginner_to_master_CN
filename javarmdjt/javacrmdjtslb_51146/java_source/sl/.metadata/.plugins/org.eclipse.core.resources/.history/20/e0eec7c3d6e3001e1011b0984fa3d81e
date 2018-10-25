@@ -1,0 +1,26 @@
+//读取商品信息
+public static TbSpinfo getSpInfo(Item item) {					
+	String where = "spname='" + item.getName() + "'";//获取商品名称
+	if (item.getId() != null)
+		where = "id='" + item.getId() + "'";//获取商品编号
+	ResultSet rs = findForResultSet("select * from tb_spinfo where "+ where);
+	TbSpinfo spInfo = new TbSpinfo();//创建商品数据模型对象
+	try {
+		if (rs.next()) {
+			spInfo.setId(rs.getString("id").trim());
+			spInfo.setBz(rs.getString("bz").trim());
+			spInfo.setCd(rs.getString("cd").trim());
+			spInfo.setDw(rs.getString("dw").trim());
+			spInfo.setGg(rs.getString("gg").trim());
+			spInfo.setGysname(rs.getString("gysname").trim());
+			spInfo.setJc(rs.getString("jc").trim());
+			spInfo.setMemo(rs.getString("memo").trim());
+			spInfo.setPh(rs.getString("ph").trim());
+			spInfo.setPzwh(rs.getString("pzwh").trim());
+			spInfo.setSpname(rs.getString("spname").trim());
+		}
+	} catch (SQLException e) {
+		e.printStackTrace();
+	}
+	return spInfo;//返回商品数据模型对象
+}

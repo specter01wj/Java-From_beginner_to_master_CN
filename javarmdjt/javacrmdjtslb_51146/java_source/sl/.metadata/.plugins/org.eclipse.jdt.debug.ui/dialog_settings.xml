@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="125" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
+	<item value="209" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
+	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
+	<item value="62" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2"/>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=temp/src&amp;lt;{Quadrangle.java[Parallelogramgle&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=temp/src&amp;lt;{QuadrangleUseInterface.java[QuadrangleUseInterface&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=10.09/src&amp;lt;{Quadrangle.java[Quadrangle&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=10.10/src&amp;lt;{QuadrangleUseInterface.java[QuadrangleUseInterface&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=10.13/src&amp;lt;com.lzw{UseCase1.java[UseCase1&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=17.06/src&amp;lt;com.lzw{AnyEnum.java[AnyEnum&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=DrinkeryManage/src&amp;lt;com.mwq.frame{LandFrame.java[LandFrame&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=进销存管理系统/src&amp;lt;com.lzw{MainFrame.java[MainFrame&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=7.06/src&amp;lt;com.lzw{UseCase1.java[UseCase1&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=7.06/src&amp;lt;com.lzw{UseCase2.java[UseCase2&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=19.04/src&amp;lt;{Receive.java[Receive&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=19.06/src&amp;lt;com.lzw{ComputerServer.java[ComputerServer&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=19.06/src&amp;lt;com.lzw{TestClient.java[TestClient&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=19.07/src&amp;lt;{TCPClient.java[TCPClient&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=19.07/src&amp;lt;{TCPServer.java[TCPServer&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20.01/src&amp;lt;{Conn.java[Conn&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=10.12/src&amp;lt;com.lzw{UseCase2.java[UseCase2&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20.02/lib\/jtds-1.2.2.jar&amp;lt;net.sourceforge.jtds.jdbc(Driver.class[Driver&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20.02/src&amp;lt;{Gradation.java[Gradation&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20.03/src&amp;lt;{Train.java[Train&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20.04/src&amp;lt;{Prep.java[Prep&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20.08/src&amp;lt;{DeleteStu.java[DeleteStu&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20.07/src&amp;lt;{InsertStu.java[InsertStu&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20.06/src&amp;lt;{SearchEmp.java[SearchEmp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20.05/src&amp;lt;{Renewal.java[Renewal&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="376" key="DIALOG_WIDTH"/>
+			<item value="-18" key="DIALOG_Y_ORIGIN"/>
+			<item value="279" key="DIALOG_X_ORIGIN"/>
+			<item value="400" key="DIALOG_HEIGHT"/>
+			<item value="1|宋体|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|宋体" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+</section>

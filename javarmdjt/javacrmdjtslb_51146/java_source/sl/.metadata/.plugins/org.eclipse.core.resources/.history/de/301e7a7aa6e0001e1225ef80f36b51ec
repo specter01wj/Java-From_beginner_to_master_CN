@@ -1,0 +1,5 @@
+public interface KeyListener extends EventListener {
+    public void keyTyped(KeyEvent e); 			//发生击键事件时被触发
+    public void keyPressed(KeyEvent e); 		//按键被按下时被触发
+    public void keyReleased(KeyEvent e); 		//按键被释放时被触发
+}

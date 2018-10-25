@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="从 项目“6.03” 中删除 1 个元素&#x0D;&#x0A;－ 原始项目：“6.03”&#x0D;&#x0A;－ 原始元素：“Tautog.java”" description="删除元素" element1="/src&lt;{Tautog.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1258964133427" subPackages="false" version="1.0"/>
+</session>

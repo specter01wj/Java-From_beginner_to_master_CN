@@ -1,0 +1,9 @@
+import java.awt.*;
+
+import javax.swing.*;
+
+public class fdsaff extends JMenuBar {
+	public fdsaff() {
+		setSize(new Dimension(300, 21));
+	}
+}

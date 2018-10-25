@@ -1,0 +1,18 @@
+package test;
+
+import java.io.*;
+
+public class TEST {
+	public static void main(String[] args) {
+		File dir=new File("E:/55555555555555");
+		File[] files = dir.listFiles();
+		for (File file : files) {
+			String name = file.getName();
+			int i = name.indexOf(".doc");
+			name=name.substring(0,i);
+			System.out.println(name);
+//			file.renameTo(new File(dir, name+"  发动机"+(int)(Math.random()*100)+".doc"));
+			file.renameTo(new File(dir, "第"+name+"章   发动机.doc"));
+		}
+	}
+}

@@ -1,0 +1,20 @@
+import java.awt.*;
+
+import javax.swing.*;
+import javax.swing.JMenu;
+
+public class fdsaff extends JMenuBar {
+	public fdsaff() {
+		setSize(new Dimension(300, 21));
+		add(new JMenu("3333"));
+		add(new JMenu("3333"));
+		add(new JMenu("3333"));
+		add(new JMenu("3333"));
+		final JMenu menu = new JMenu("3333");
+		add(menu);
+
+		final JMenu menu_1 = new JMenu();
+		menu_1.setText("New SubMenu");
+		menu.add(menu_1);
+	}
+}

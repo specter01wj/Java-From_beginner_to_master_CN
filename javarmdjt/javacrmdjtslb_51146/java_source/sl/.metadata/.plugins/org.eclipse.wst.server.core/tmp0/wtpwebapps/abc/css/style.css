@@ -1,0 +1,95 @@
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+body {
+	FONT-SIZE: 9pt;
+	margin-left:0px;
+	margin-top:0px;	
+	/*BACKGROUND-IMAGE: url(../Images/bg.gif);*/
+	SCROLLBAR-FACE-COLOR: #bbc1da; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #fcfcfc; COLOR: #000000;
+	SCROLLBAR-3DLIGHT-COLOR: #ececec;
+	SCROLLBAR-ARROW-COLOR: #ffffff;
+	SCROLLBAR-TRACK-COLOR: #ececec;
+	SCROLLBAR-DARKSHADOW-COLOR: #999966;
+	BACKGROUND-COLOR: #fcfcfc
+
+}
+td {
+	font-size: 9pt;	line-height:150%;
+}
+a:hover {
+	font-size: 9pt;	color: #FF0000;
+}
+a {
+	font-size: 9pt;	text-decoration: none;	color: #3C404D;
+}
+.btn_grey {
+	font-family: "宋体";	font-size: 9pt;color: #333333;	
+	background-color: #eeeeee;cursor: hand;padding:1px;height:19px;
+	border-top: 1px solid #FFFFFF;border-right:1px solid #666666;
+	border-bottom: 1px solid #666666;border-left: 1px solid #FFFFFF;
+}
+.word_grey {
+	font-size: 9pt;
+	color: #333333;
+}
+.txt_grey {
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+	width:110;
+}
+input {
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+}
+.wenbenkuang {
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+}
+.search  { font-family: 宋体; font-size: 9pt; color: #000000; background-color: #EEEEEE; 
+           border: 1px Hidden #000000; }
+.tableBorder {
+	border: #9CA6C6 1px solid
+}
+.tableBorder_Top{
+	border:1px solid #9CA6C6;
+	border-bottom-style:none;
+	border-left-style:none; 
+	border-right-style:none
+}
+.tableBorder_Botton{
+	border:1px solid #9CA6C6;
+	border-top-style:none;
+	border-left-style:none; 
+	border-right-style:none
+}
+hr{
+color:#9CA6C6;
+}
+.ToolTip {
+	BORDER-RIGHT: #8492b9 1px solid; BORDER-TOP: #8492b9 1px solid; BORDER-LEFT: #8492b9 1px solid; COLOR: #333333; BORDER-BOTTOM: #8492b9 1px solid; BACKGROUND-COLOR: #f9f9f9
+}
+.noborder{
+border-style:none;
+}
+.tableBorder_B{
+	border:1px solid #9CA6C6;
+	border-left-style:none; 
+	border-right-style:none;
+	border-Top-style:none; 
+}
+.zi {
+	font-size: 12px;
+	color: #333333;
+}
+.dzi {
+	font-size: large;
+	text-decoration: blink;
+}

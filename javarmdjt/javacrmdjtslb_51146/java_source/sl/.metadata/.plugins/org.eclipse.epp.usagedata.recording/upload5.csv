@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.6.0_17-b04",1257989906823
+java.specification.name,sysinfo,,,"Java Platform API Specification",1257989906823
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1257989906823
+java.specification.version,sysinfo,,,"1.6",1257989906823
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1257989906823
+java.version,sysinfo,,,"1.6.0_17",1257989906823
+java.vm.info,sysinfo,,,"mixed mode",1257989906823
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1257989906823
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1257989906823
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1257989906823
+java.vm.specification.version,sysinfo,,,"1.0",1257989906823
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1257989906823
+java.vm.version,sysinfo,,,"14.3-b01",1257989906823
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257989914916
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257989914932
+closed,view,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.internal.introview",1257989914979
+activated,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.AllMarkersView",1257989917213
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257989917604
+activated,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.AllMarkersView",1257989917870
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257989918213
+activated,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.AllMarkersView",1257989918495
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257989918807
+activated,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.AllMarkersView",1257989919276
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1257989919651
+started,bundle,com.instantiations.common.core,5.5.0.200910081108,"com.instantiations.common.core",1257989926776

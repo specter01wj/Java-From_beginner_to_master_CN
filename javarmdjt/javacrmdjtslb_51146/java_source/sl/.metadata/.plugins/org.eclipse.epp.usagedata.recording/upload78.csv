@@ -1,0 +1,23 @@
+what,kind,bundleId,bundleVersion,description,time
+ws,sysinfo,,,"win32",1258438717712
+locale,sysinfo,,,"zh_CN",1258438717712
+processors,sysinfo,,,"2",1258438717712
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1258438717712
+java.runtime.version,sysinfo,,,"1.6.0_17-b04",1258438717712
+java.specification.name,sysinfo,,,"Java Platform API Specification",1258438717712
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1258438717712
+java.specification.version,sysinfo,,,"1.6",1258438717712
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1258438717712
+java.version,sysinfo,,,"1.6.0_17",1258438717712
+java.vm.info,sysinfo,,,"mixed mode",1258438717712
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1258438717712
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1258438717712
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1258438717712
+java.vm.specification.version,sysinfo,,,"1.0",1258438717712
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1258438717712
+java.vm.version,sysinfo,,,"14.3-b01",1258438717712
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1258438718837
+started,bundle,org.eclipse.ui.forms,3.4.0.v20090526,"org.eclipse.ui.forms",1258438718931
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1258438719869
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1258438719947
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1258438720197

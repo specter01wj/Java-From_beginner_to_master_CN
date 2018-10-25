@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi">
+  <objectChanges xsi:type="change:EObjectToChangesMapEntry" key="org.eclipse.jem.java:JavaClass java:/com.lzw#MenuBar">
+    <value xsi:type="change:FeatureChange" featureName="eAnnotations">
+      <listChanges xsi:type="change:ListChange" referenceValues="#//@objectsToAttach.0"/>
+    </value>
+    <value xsi:type="change:FeatureChange" featureName="eStructuralFeatures">
+      <listChanges xsi:type="change:ListChange" referenceValues="#//@objectsToAttach.1 #//@objectsToAttach.2 #//@objectsToAttach.3 #//@objectsToAttach.4 #//@objectsToAttach.5 #//@objectsToAttach.6 #//@objectsToAttach.7 #//@objectsToAttach.8 #//@objectsToAttach.9 #//@objectsToAttach.10 #//@objectsToAttach.11 #//@objectsToAttach.12 #//@objectsToAttach.13 #//@objectsToAttach.14 #//@objectsToAttach.15 #//@objectsToAttach.16 #//@objectsToAttach.17 #//@objectsToAttach.18 #//@objectsToAttach.19 #//@objectsToAttach.20 #//@objectsToAttach.21 #//@objectsToAttach.22 #//@objectsToAttach.23 #//@objectsToAttach.24 #//@objectsToAttach.25 #//@objectsToAttach.26 #//@objectsToAttach.27"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" implicitlySetBits="2017612633061982222" implicitDecoratorFlag="IMPLICIT_DECORATOR" mergeSuperMethods="false"/>
+  <objectsToAttach xsi:type="ecore:EReference" name="bang_zhuMenu" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenu" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getBang_zhuMenu("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="bugItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getBugItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="chuang_kouMenu" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenu" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getChuang_kouMenu("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="exitItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getExitItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="fangwen_wangzhanItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getFangwen_wangzhanItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="gys_guanliItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getGys_guanliItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="jiage_tiaozhengItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getJiage_tiaozhengItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="jiben_ziliaoMenu" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenu" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getJiben_ziliaoMenu("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="jinhuoItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getJinhuoItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="jinhuo_Menu" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenu" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getJinhuo_Menu("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="jinhuo_tuihuoItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getJinhuo_tuihuoItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="jsr_guanliItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getJsr_guanliItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="kehu_guanliItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getKehu_guanliItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="kucun_Menu" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenu" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getKucun_Menu("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="kucun_pandianItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getKucun_pandianItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="mima_xiugaiItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getMima_xiugaiItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="pingpuItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getPingpuItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="shangpin_chaxunItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getShangpin_chaxunItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="shangpin_guanliItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getShangpin_guanliItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="shuju_beifenItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getShuju_beifenItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="xiaoshou_Menu" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenu" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getXiaoshou_Menu("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="xiaoshou_chaxunItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getXiaoshou_chaxunItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="xiaoshou_danItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getXiaoshou_danItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="xiaoshou_paihangItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getXiaoshou_paihangItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="xiaoshou_tuihuoItem" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenuItem" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getXiaoshou_tuihuoItem("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="xinxi_chaxunMenu" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenu" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getXinxi_chaxunMenu("/>
+  </objectsToAttach>
+  <objectsToAttach xsi:type="ecore:EReference" name="xitong_weihuMenu" eType="org.eclipse.jem.java:JavaClass java:/javax.swing#JMenu" unsettable="true">
+    <eAnnotations xsi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" bound="true" readMethod="org.eclipse.jem.java:Method java:/com.lzw#MenuBar.getXitong_weihuMenu("/>
+  </objectsToAttach>
+</change:ChangeDescription>

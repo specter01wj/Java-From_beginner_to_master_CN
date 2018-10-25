@@ -1,0 +1,60 @@
+package com.lzw;
+
+import java.awt.*;
+import java.net.URL;
+import javax.swing.*;
+
+public class PartImage extends JFrame {
+	private Image img;
+	private int dx1, dy1, dx2, dy2;
+	private int sx1, sy1, sx2, sy2;
+	// 省略部分代码
+	private MyCanvas canvasPanel = null;
+	
+	public PartImage() {
+		dx2 = sx2 = 300; // 初始化图像大小
+		dy2 = sy2 = 200;
+		initialize(); // 调用初始化方法
+	}
+	
+	// 省略部分代码
+	// 获取“水平翻转”按钮
+	private JButton getJButton() {
+		if (jButton == null) {
+			jButton = new JButton();
+			jButton.setText("水平翻转");
+			jButton.addActionListener(new java.awt.event.ActionListener() {
+				public void actionPerformed(java.awt.event.ActionEvent e) {
+					sx1 = Math.abs(sx1 - 300); // 改变源矩形两个坐标的x位置
+					sx2 = Math.abs(sx2 - 300);
+					canvasPanel.repaint();
+				}
+			});
+		}
+		return jButton;
+	}
+	
+	// 获取“垂直翻转”按钮
+	private JButton getJButton1() {
+		if (jButton1 == null) {
+			jButton1 = new JButton();
+			jButton1.setText("垂直翻转");
+			jButton1.addActionListener(new java.awt.event.ActionListener() {
+				public void actionPerformed(java.awt.event.ActionEvent e) {
+					sy1 = Math.abs(sy1 - 200); // 改变源矩形两个坐标的y位置
+					sy2 = Math.abs(sy2 - 200);
+					canvasPanel.repaint();
+				}
+			});
+		}
+		return jButton1;
+	}
+	
+	// 省略部分代码
+	// 画板
+	class MyCanvas extends JPanel {
+		public void paint(Graphics g) {
+			g.drawImage(img, dx1, dy1, dx2, dy2, sx1, sy1, sx2, sy2, this); // 绘制指定大小的图片
+		}
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将 1 个元素移至 “1.02/src”&#x0D;&#x0A;－ 原始项目：“1.02”&#x0D;&#x0A;－ 目标元素：“1.02/src”&#x0D;&#x0A;－ 原始元素：“HelloJava.java”&#x0D;&#x0A;－ 更新对已重构元素的引用" description="移动文件" destination="/src" element1="HelloJava.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1258960811811" units="0" version="1.0"/>
+</session>

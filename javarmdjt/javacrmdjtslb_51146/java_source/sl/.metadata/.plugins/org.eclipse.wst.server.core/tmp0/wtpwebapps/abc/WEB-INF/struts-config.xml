@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <form-beans>
+    <form-bean name="managerForm" type="com.domain.ManagerForm" />
+    <form-bean name="afficheForm" type="com.domain.AfficheForm" />
+    <form-bean name="linkForm" type="com.domain.LinkForm" />
+    <form-bean name="bigTypeForm" type="com.domain.BigTypeForm" />
+    <form-bean name="smallTypeForm" type="com.domain.SmallTypeForm" />
+    <form-bean name="goodsForm" type="com.domain.GoodsForm" />
+    <form-bean name="memberForm" type="com.domain.MemberForm" />
+    <form-bean name="orderForm" type="com.domain.OrderForm" />
+    <form-bean name="orderDetailForm" type="com.domain.OrderDetailForm" />
+  </form-beans>
+  <action-mappings>
+    <action name="managerForm" path="/managerAction" scope="request" type="com.webtier.ManagerAction" validate="true">
+      <forward name="checkResult" path="/background/checkResult.jsp" />
+      <forward name="managerSelect" path="/background/manager/managerSelect.jsp" />
+      <forward name="managerForwardInsert" path="/background/manager/managerInsert.jsp" />
+      <forward name="managerOperation" path="/background/manager/managerSuccess.jsp" />
+      <forward name="managerSelectContent" path="/background/manager/managerUpdate.jsp" />
+      <forward name="managerForwardPassword" path="/background/manager/managerUpdatePassword.jsp" />
+    </action>
+    <action name="afficheForm" path="/afficheAction" scope="request" type="com.webtier.AfficheAction" validate="true">
+      <forward name="afficheSelect" path="/background/affiche/afficheSelect.jsp" />
+      <forward name="afficheForward" path="/background/affiche/afficheInsert.jsp" />
+      <forward name="afficheOperation" path="/background/affiche/afficheSuccess.jsp" />
+      <forward name="afficheSelectOne" path="/background/affiche/afficheUpdate.jsp" />
+      <forward name="afficheContent" path="/background/affiche/afficheContent.jsp" />
+    </action>
+    <action name="linkForm" path="/linkAction" scope="request" type="com.webtier.LinkAction" validate="true">
+      <forward name="linkSelect" path="/background/link/linkSelect.jsp" />
+      <forward name="linkForward" path="/background/link/linkInsert.jsp" />
+      <forward name="linkOperation" path="/background/link/linkSuccess.jsp" />
+      <forward name="linkInsertForwardOne" path="/background/link/linkUpload.jsp" />
+    </action>
+    <action name="bigTypeForm" path="/bigTypeAction" scope="request" type="com.webtier.BigTypeAction" validate="true">
+      <forward name="bigTypeSelect" path="/background/bigType/bigTypeSelect.jsp" />
+      <forward name="bigTypeForward" path="/background/bigType/bigTypeInsert.jsp" />
+      <forward name="bigTypeOperation" path="/background/bigType/bigTypeSuccess.jsp" />
+      <forward name="bigTypeSelectOne" path="/background/bigType/bigTypeUpdate.jsp" />
+    </action>
+    <action name="smallTypeForm" path="/smallTypeAction" scope="request" type="com.webtier.SmallTypeAction" validate="true">
+      <forward name="smallTypeSelect" path="/background/smallType/smallTypeSelect.jsp" />
+      <forward name="smallTypeForward" path="/background/smallType/smallTypeInsert.jsp" />
+      <forward name="smallTypeOperation" path="/background/smallType/smallTypeSuccess.jsp" />
+      <forward name="smallTypeSelectOne" path="/background/smallType/smallTypeUpdate.jsp" />
+    </action>
+    <action attribute="goodsForm" name="goodsForm" path="/goodsAction" scope="request" type="com.webtier.GoodsAction" validate="true">
+      <forward name="goodSelect" path="/background/goods/goodSelect.jsp" />
+      <forward name="goodForward" path="/background/goods/goodInsert.jsp" />
+      <forward name="goodsInsertPicture" path="/background/goods/goodsUploadPicture.jsp" />
+      <forward name="goodsOperation" path="/background/goods/goodsSuccess.jsp" />
+      <forward name="selectContent" path="/background/goods/selectContent.jsp" />
+      <forward name="goodSelectMark" path="/background/goods/goodsMarkSelect.jsp" />
+      <forward name="goodSelectSmall" path="/background/goods/goodSelectSmall.jsp" />
+      <forward name="goodSelectBig" path="/background/goods/goodSelectBig.jsp" />
+      <forward name="managerFreePirce" path="/background/goods/freePirce.jsp" />
+      <forward name="goodSelectBigHead" path="/managerGoods/selectBigGoods.jsp" />
+      <forward name="goodSelectSmallHead" path="/managerGoods/selectSmallGoods.jsp" />
+      <forward name="goodSelectNewHead" path="/managerGoods/selectNewGoods.jsp" />
+      <forward name="goodSelectFreeHead" path="/managerGoods/selectFreeGoods.jsp" />
+      <forward name="goodSelectOneHead" path="/managerGoods/goodSelectOne.jsp" />
+      <forward name="goodUpdaterequest" path="/background/goods/goodsUpdate.jsp"></forward>
+     <forward name="goodUpdaterSuccess" path="/background/goods/GoodsUpdateSuccess.jsp"></forward>
+    </action>
+    <action name="memberForm" path="/memberAction" scope="request" type="com.webtier.MemberAction" validate="true">
+      <forward name="operationMember" path="/member/memberSuccess.jsp" />
+      <forward name="checkMember" path="/member/checkMemberResult.jsp" />
+      <forward name="selectOneMemberHead" path="/member/updateMember.jsp" />
+      <forward name="selectMember" path="/background/member/selectMember.jsp" />
+      <forward name="selectOneMember" path="/background/member/selectContent.jsp" />
+      <forward name="deleteMember" path="/background/member/success.jsp" />
+    </action>
+    <action name="orderForm" path="/orderAction" scope="request" type="com.webtier.OrderAction" validate="true">
+      <forward name="selectOrder" path="/background/order/selectOrder.jsp" />
+      <forward name="operationOrder" path="/background/order/success.jsp" />
+      <forward name="selectOneOrder" path="/background/order/selectContent.jsp" />
+    </action>
+  </action-mappings>
+</struts-config>
